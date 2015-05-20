@@ -3,7 +3,7 @@
 # asmttpd for Docker
 based on:
 - [nemasu/asmttpd](https://github.com/nemasu/asmttpd "nemasu/asmttpd")
-- [gliderlabs/docker-alpine](https://github.com/gliderlabs/docker-alpine "gliderlabs/docker-alpine")
+- [library/alpine](https://registry.hub.docker.com/_/alpine/ "library/alpine")
 
 ### Basic usage
 
