@@ -10,7 +10,7 @@ make release
 mkdir -p ../rootfs/var/www
 mkdir -p ../rootfs/bin/
 cp -v asmttpd ../rootfs/bin/
-cp -v web_root/* ../rootfs/var/www/
+echo "it works!" > ../rootfs/var/www/index.html
 cd ..
 rm -rf root.tar.gz asmttpd*
 cd rootfs
