@@ -1,9 +1,11 @@
-![](https://badge.imagelayers.io/0xff/asmttpd.svg)
-
 # asmttpd for Docker
 based on:
-- [nemasu/asmttpd](https://github.com/nemasu/asmttpd "nemasu/asmttpd")
-- [library/alpine](https://registry.hub.docker.com/_/alpine/ "library/alpine")
+* [nemasu/asmttpd](https://github.com/nemasu/asmttpd "nemasu/asmttpd")
+* [library/alpine](https://registry.hub.docker.com/_/alpine/ "library/alpine")
+
+comes in two flavors:
+* ![](https://badge.imagelayers.io/0xff/asmttpd:alpine.svg) 0xff/asmttpd:alpine
+* ![](https://badge.imagelayers.io/0xff/asmttpd:tiny.svg) 0xff/asmttpd:tiny
 
 ### Basic usage
 
