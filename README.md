@@ -4,7 +4,7 @@ based on:
 - [nemasu/asmttpd](https://github.com/nemasu/asmttpd "nemasu/asmttpd") - the server
 - [library/alpine](https://registry.hub.docker.com/_/alpine/ "library/alpine") - for building
 
-![](https://badge.imagelayers.io/0xff/asmttpd.svg)
+[![](https://badge.imagelayers.io/0xff/asmttpd:latest.svg)](https://imagelayers.io/?images=0xff/asmttpd:latest 'imagelayers.io')
 
 ### Basic usage
 ```sh
@@ -15,7 +15,7 @@ curl http://localhost:8080/ # -> it works!
 ### Use custom content
 ```sh
 # go somwhere we can play...
-cd `mktemp -d`
+cd $(mktemp -d)
 
 # download some random template (thanks bootstrapzero.com!)
 curl -o template.zip http://www.codeply.com/download/DRBmOoChfM
