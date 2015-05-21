@@ -11,12 +11,9 @@ rm asmttpd.tar.gz
 cd asmttpd-*
 make release
 cp asmttpd ..
-make clean
-make
-cp asmttpd ../asmttpd-debug
 cd ..
 mkdir -p rootfs/bin
-mv asmttpd asmttpd-debug rootfs/bin
+mv asmttpd rootfs/bin
 rm -rf asmttpd-*
 mkdir -p rootfs/var/www
 echo "it works!" > rootfs/var/www/index.html
