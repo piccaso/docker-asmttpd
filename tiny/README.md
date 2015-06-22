@@ -17,9 +17,8 @@ curl http://localhost:8080/ # --> it works!
 ### Use custom content
 
 ```sh
-
 # go somwhere we can play...
-cd `mktemp -d`
+cd $(mktemp -d)
 
 # download some random template (thanks bootstrapzero.com!)
 curl -o template.zip http://www.codeply.com/download/DRBmOoChfM
