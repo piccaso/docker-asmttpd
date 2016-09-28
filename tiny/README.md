@@ -4,9 +4,8 @@ based on:
 - [nemasu/asmttpd](https://github.com/nemasu/asmttpd "nemasu/asmttpd") - the server
 - [library/alpine](https://registry.hub.docker.com/_/alpine/ "library/alpine") - for building
 
-[![](https://badge.imagelayers.io/0xff/asmttpd:latest.svg)](https://imagelayers.io/?images=0xff/asmttpd:latest 'imagelayers.io')
-[![Docker Build Status](http://hubstatus.container42.com/0xff/asmttpd)](https://registry.hub.docker.com/u/0xff/asmttpd)
-[![Docker Repository on Quay.io](https://quay.io/repository/0xff/asmttpd/status "Docker Repository on Quay.io")](https://quay.io/repository/0xff/asmttpd)
+[![Docker Pulls](https://img.shields.io/docker/pulls/0xff/asmttpd.svg)](https://hub.docker.com/r/0xff/asmttpd)  
+[![Docker Repository on Quay.io](https://quay.io/repository/0xff/asmttpd/status "Docker Repository on Quay.io")](https://quay.io/repository/0xff/asmttpd)  
 
 ### Basic usage
 ```sh
@@ -36,7 +35,7 @@ Optional, image available on [Docker Hub](https://registry.hub.docker.com/u/0xff
 
 ```sh
 # build filesystem
-build/build.sh
+./build/build.sh
 
 # build image
 docker build -t 0xff/asmttpd tiny
